@@ -7,6 +7,7 @@
 
 body {
     font-family: 'museo sans 500', sans-serif; 
+    color: #353535;
 }
 
 /****Grid****/
@@ -29,13 +30,33 @@ body {
 /****Header****/
 
 header h1 {
-    color: royalblue;
+    color: #0000ff;
     font-family: 'playfair display', serif;
     font-size: 48px;
     font-weight: bold;  
 }
 
 header h2 {
-    color: darkslategray;
     font-size: 42px;
+}
+
+header h2 span {
+    color: #0000ff;
+    font-weight: bold;
+}
+
+nav {
+    float: right;
+    padding:
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #ec0b43;
+    padding-left: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
