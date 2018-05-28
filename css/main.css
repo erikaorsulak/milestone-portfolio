@@ -3,14 +3,18 @@
     src: url('fonts/museo-sans-500.otf') format('opentype');
 } 
 
-/****Base styles****/
+/****BASE STYLES****/
 
 body {
     font-family: 'museo sans 500', sans-serif; 
     color: #353535;
 }
 
-/****Grid****/
+#about, #work, #contact {
+    height: 600px;
+}
+
+/****GRID****/
 
 .full-width {
     margin: 0 auto;
@@ -27,27 +31,44 @@ body {
     width: 400px;
 }
 
-/****Header****/
+/****HEADER****/
+
+header {
+    height: 768px;
+}
 
 header h1 {
     color: #0000ff;
     font-family: 'playfair display', serif;
     font-size: 48px;
     font-weight: bold;  
+    padding: 12px 0;
 }
 
 header h2 {
-    font-size: 42px;
+    clear: left;
+    font-size: 36px;
+    padding-top: 120px;
+    line-height: 36px;
 }
 
-header h2 span {
+header h3 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+header h3 span {
     color: #0000ff;
     font-weight: bold;
 }
 
+#header-box {
+    padding: 80px 0;
+}
+
 nav {
     float: right;
-    padding:
+    padding: 40px 20px;
 }
 
 nav ul li {
@@ -60,3 +81,6 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+/***ABOUT***/
+
