@@ -1,13 +1,7 @@
-@font-face {
-    font-family: Museo Sans 500;
-    src: url('fonts/museo-sans-500.otf') format('opentype');
-} 
-
 /****BASE STYLES****/
 
 body {
-    font-family: 'museo sans 500', sans-serif; 
-    color: #353535;
+    font-family: 'poppins', sans-serif; 
 }
 
 #about, #work, #contact {
@@ -22,7 +16,7 @@ body {
 }
 
 .half-width {
-    float: left;
+    clear: both;
     width: 600px;
 }
 
@@ -34,50 +28,45 @@ body {
 /****HEADER****/
 
 header {
-    height: 768px;
+    text-align: center;
 }
 
 header h1 {
-    color: #0000ff;
-    font-family: 'playfair display', serif;
-    font-size: 48px;
+    color: #7894ff;
+    font-size: 60px;
     font-weight: bold;  
-    padding: 12px 0;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #ff502c;
 }
 
 header h2 {
-    clear: left;
     font-size: 36px;
+    font-weight: normal; 
     padding-top: 120px;
-    line-height: 36px;
+    line-height: 30px;
 }
 
 header h3 {
     font-size: 36px;
-    line-height: 36px;
+    font-weight: normal;
+    line-height: 30px;
 }
 
 header h3 span {
-    color: #0000ff;
+    color: #7B287D;
     font-weight: bold;
-}
-
-#header-box {
-    padding: 80px 0;
-}
-
-nav {
-    float: right;
-    padding: 40px 20px;
-}
+}   
 
 nav ul li {
     display: inline-block;
 }
 
 nav ul li a {
-    color: #ec0b43;
-    padding-left: 50px;
+    color: #7067CF;
     text-decoration: none;
     text-transform: uppercase;
 }
