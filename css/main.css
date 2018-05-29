@@ -42,14 +42,11 @@ header h1 {
     text-transform: uppercase;
 }
 
-header h1 span {
-    color: #ff502c;
-}
-
 header h2 {
     color: #ff502c;
+    font-family: 'Playfair Display', serif;
     font-size: 36px;
-    font-weight: normal;
+    text-transform: lowercase;
 }
 
 nav ul {
@@ -63,7 +60,7 @@ nav ul li {
 
 nav ul li a {
     color: #FF91FF;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -76,28 +73,27 @@ nav ul li a {
 
 #about-text {
     color: #ffffff;
-    padding: 45px 60px 30px 60px;
+    padding: 18px 40px 18px 60px;
     text-align: left;
 }
 
-#about h3 {
-    font-size: 36px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
 #about h4 {
-    font-size: 30px;
+    font-family: 'Playfair Display', 'serif';
+    font-size: 36px;
     font-weight: bold;
-    text-transform: lowercase;
 }
 
 #about p {
-    font-family: 'Playfair Display', 'serif';
-    font-size: 24px;
+    font-size: 18px;
 }
 
 #about-image {
     padding: 70px 0;
     text-align: center;
+}
+
+/****PORTFOLIO****/
+
+#portfolio h2 {
+    
 }
