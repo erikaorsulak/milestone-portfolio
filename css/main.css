@@ -4,14 +4,13 @@ body {
     font-family: 'poppins', sans-serif; 
 }
 
-#about, #work, #contact {
+#about, #portfolio, #contact {
     height: 600px;
 }
 
 /****GRID****/
 
 .full-width {
-    margin: 0 auto;
     width: 1200px;
 }
 
@@ -28,7 +27,7 @@ body {
 /****HEADER****/
 
 header {
-    height: 800px;
+    height: 600px;
     text-align: center;
 }
 
@@ -66,3 +65,14 @@ nav ul li a {
 
 /***ABOUT***/
 
+#about {
+    background: #7894ff; 
+}
+
+#about .half-width {
+    padding: 60px;
+}
+
+#about h3, p {
+    color: #ffffff;
+}
