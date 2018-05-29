@@ -28,6 +28,7 @@ body {
 /****HEADER****/
 
 header {
+    height: 800px;
     text-align: center;
 }
 
@@ -36,6 +37,8 @@ header h1 {
     font-size: 60px;
     font-weight: bold;  
     letter-spacing: 7px;
+    line-height: 36px;
+    padding-top: 180px;
     text-transform: uppercase;
 }
 
@@ -44,29 +47,19 @@ header h1 span {
 }
 
 header h2 {
-    font-size: 36px;
-    font-weight: normal; 
-    padding-top: 120px;
-    line-height: 30px;
-}
-
-header h3 {
+    color: #ff502c;
     font-size: 36px;
     font-weight: normal;
-    line-height: 30px;
 }
 
-header h3 span {
-    color: #7B287D;
-    font-weight: bold;
-}   
-
 nav ul li {
-    display: inline-block;
+    display: inline-block;    
+    padding: 40px 15px;
 }
 
 nav ul li a {
-    color: #7067CF;
+    color: #FF91FF;
+    font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
 }
