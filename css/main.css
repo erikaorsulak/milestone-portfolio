@@ -5,7 +5,7 @@ body {
 }
 
 #about, #portfolio, #contact {
-    height: 600px;
+    height: 670px;
 }
 
 /****GRID****/
@@ -95,19 +95,7 @@ nav ul li a {
 }
 
 #about p {
-    font-size: 18px;
-}
-
-#about p span {
-    color: #000000;
-    font-family: 'Playfair Display', serif;
-    font-size: 28px;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.pink-text {
-    color: #FF91FF;
+    font-size: 20px;
 }
 
 #about-image {
@@ -121,10 +109,6 @@ nav ul li a {
     background-color: #ff502c;
     height: 100px;
     width: auto;
-}
-
-#portfolio {
-    background: #ffffff;
 }
 
 #portfolio h4 {
