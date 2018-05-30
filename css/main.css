@@ -28,7 +28,7 @@ body {
 /****HEADER****/
 
 header {
-    height: 600px;
+    height: 550px;
     text-align: center;
 }
 
@@ -46,6 +46,7 @@ header h2 {
     color: #ff502c;
     font-family: 'Playfair Display', serif;
     font-size: 36px;
+    font-style: italic;
     text-transform: lowercase;
 }
 
@@ -67,24 +68,46 @@ nav ul li a {
 
 /***ABOUT***/
 
-#about {
-    background: #7894ff; 
+.about-bar {
+    background-color: #7894ff;
+    height: 100px;
+    width: auto;
 }
 
-#about-text {
-    color: #ffffff;
-    padding: 18px 40px 18px 60px;
-    text-align: left;
+#about {
+    background: #EEF1FF; 
 }
 
 #about h4 {
-    font-family: 'Playfair Display', 'serif';
-    font-size: 36px;
+    color: #ffffff;
+    font-family: 'playfair display', serif;
+    font-size: 48px;
     font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 14px;
+    text-align: center;
+}
+
+#about-text {
+    color: #141414;
+    padding: 30px 40px 18px 60px;
+    text-align: left;
 }
 
 #about p {
     font-size: 18px;
+}
+
+#about p span {
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pink-text {
+    color: #FF91FF;
 }
 
 #about-image {
@@ -94,6 +117,32 @@ nav ul li a {
 
 /****PORTFOLIO****/
 
+.portfolio-bar {
+    background-color: #ff502c;
+    height: 100px;
+    width: auto;
+}
+
+#portfolio {
+    background: #ffffff;
+}
+
+#portfolio h4 {
+    color: #ffffff;
+    font-family: 'playfair display', serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 14px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
 #portfolio h2 {
-    
+    color: #ff502c;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 40px;
 }
