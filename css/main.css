@@ -106,24 +106,7 @@ nav ul li a {
     width: auto;
 }
 
-#portfolio {
-    background-color: #F4F5FF;
-}
-
-.portfolio-image {
-    clear: both;
-    float: left;
-    text-align: center;
-    width: 600px;
-}
-
-.portfolio-text {
-    float: right;
-    text-align: center;
-    width: 600px;
-}
-
-#portfolio h4 {
+#portfolio h2 {
     color: #ffffff;
     font-family: 'playfair display', serif;
     font-size: 48px;
@@ -135,24 +118,63 @@ nav ul li a {
     text-transform: lowercase;
 }
 
-#portfolio h2 {
-    color: #ff502c;
-    font-family: 'Playfair Display', serif;
-    font-size: 48px;
+#portfolio h3 {
+    color: #FF91FF;
+    font-size: 20px;
     font-weight: bold;
     padding: 40px;
 }
 
+#porfolio h3 span {
+    color: #7894ff;
+    font-family: 'Playfair Display', serif;
+    font-size: 
+    text-transform: lowercase;
+}
+
 #jubilee-image {
+    background-color: #F4F5FF;
+    clear: both;
+    float: left;
     padding: 70px 0;
+    text-align: center;
+    width: 650px;
+}
+
+#jubilee-text {
+    float: right;
+    text-align: center;
+    width: 650px;
 }
 
 #rogue-image {
+    background-color: #F4F5FF;
+    clear: both;
+    float: right;
+    padding: 70px 0;
+    text-align: center;
+    width: 650px;
+}
 
+#rogue-text {
+    float: left;
+    text-align: center;
+    width: 650px;
 }
 
 #snowgrass-image {
+    background-color: #F4F5FF;
+    clear: both;
+    float: left;
+    padding: 70px 0;
+    text-align: center;
+    width: 650px;
+}
 
+#snowgrass-text {
+    float: right;
+    text-align: center;
+    width: 650px;
 }
 
 /***Footer***/
