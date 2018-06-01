@@ -106,7 +106,7 @@ nav ul li a {
     width: auto;
 }
 
-#portfolio h2 {
+.portfolio h2 {
     color: #ffffff;
     font-family: 'playfair display', serif;
     font-size: 48px;
@@ -118,18 +118,12 @@ nav ul li a {
     text-transform: lowercase;
 }
 
-#portfolio h3 {
-    color: #FF91FF;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 40px;
-}
-
-#porfolio h3 span {
+.portfolio h3 {
     color: #7894ff;
-    font-family: 'Playfair Display', serif;
-    font-size: 
-    text-transform: lowercase;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 #jubilee-image {
@@ -143,7 +137,19 @@ nav ul li a {
 
 #jubilee-text {
     float: right;
+    padding-top: 225px;
     text-align: center;
+    width: 650px;
+}
+
+.portfolio-span h3 {
+    color: #ff502c;
+    float: right;
+    font-family: 'Playfair display', serif;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    text-transform: lowercase;
     width: 650px;
 }
 
