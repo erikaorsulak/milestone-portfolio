@@ -4,11 +4,12 @@ body {
     font-family: 'poppins', sans-serif; 
 }
 
-#about {
-    height: 520px;
+
+#portfolio {
+    height: 1200px;
 }
 
-#portfolio, #contact {
+#contact {
     height: 670px;
 }
 
@@ -63,28 +64,38 @@ nav ul li a {
 
 /***ABOUT***/
 
-.about-bar {
+#about {
+    height: 520px;
+}
+
+#about-bar {
     background-color: #7894ff;
     height: 100px;
     width: auto;
 }
 
-#about h4 {
+#about h2, #contact h2, #portfolio h2 {
     color: #ffffff;
     font-family: 'playfair display', serif;
     font-size: 48px;
+    font-style: italic;
     font-weight: bold;
     letter-spacing: 3px;
     padding-top: 14px;
     text-align: center;
+    text-transform: lowercase;
 }
 
 #about-text {
-    color: #141414;
     float: left;
-    padding: 60px 30px 60px 90px;
+    padding: 60px 30px 90px 90px;
     text-align: left;
     width: 600px;
+}
+
+#about p {
+    color: #141414;
+    font-size: 18px;
 }
 
 #about p {
@@ -93,37 +104,36 @@ nav ul li a {
 
 #about-image {
     float: right;
-    padding: 80px 50px;
+    padding: 90px 50px;
     text-align: center;
     width: 500px;
 }
 
 /****PORTFOLIO****/
 
-.portfolio-bar {
+#portfolio-bar {
     background-color: #ff502c;
+    clear: both;
     height: 100px;
     width: auto;
 }
 
-.portfolio h2 {
-    color: #ffffff;
-    font-family: 'playfair display', serif;
-    font-size: 48px;
-    font-style: italic;
-    font-weight: bold;
-    letter-spacing: 3px;
-    padding-top: 14px;
-    text-align: center;
-    text-transform: lowercase;
-}
-
-.portfolio h3 {
+#portfolio h3 {
     color: #7894ff;
     font-size: 28px;
     font-weight: bold;
+    line-height: 6px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+#portfolio span {
+    color: #ff502c;
+    font-family: 'Playfair display', serif;
+    font-size: 24px;
+    font-style: italic;
+    letter-spacing: 0;
+    text-transform: lowercase;
 }
 
 #jubilee-image {
@@ -132,25 +142,14 @@ nav ul li a {
     float: left;
     padding: 70px 0;
     text-align: center;
-    width: 650px;
+    width: 666px;
 }
 
 #jubilee-text {
     float: right;
-    padding-top: 225px;
+    padding-top: 320px;
     text-align: center;
-    width: 650px;
-}
-
-.portfolio-span h3 {
-    color: #ff502c;
-    float: right;
-    font-family: 'Playfair display', serif;
-    font-size: 24px;
-    font-style: italic;
-    text-align: center;
-    text-transform: lowercase;
-    width: 650px;
+    width: 666px;
 }
 
 #rogue-image {
@@ -159,13 +158,14 @@ nav ul li a {
     float: right;
     padding: 70px 0;
     text-align: center;
-    width: 650px;
+    width: 666px;
 }
 
 #rogue-text {
     float: left;
+    padding-top: 150px;
     text-align: center;
-    width: 650px;
+    width: 666px;
 }
 
 #snowgrass-image {
@@ -174,18 +174,26 @@ nav ul li a {
     float: left;
     padding: 70px 0;
     text-align: center;
-    width: 650px;
+    width: 666px;
 }
 
 #snowgrass-text {
     float: right;
+    padding-top: 150px;
     text-align: center;
-    width: 650px;
+    width: 666px;
 }
 
 /***Footer***/
 
-#footer-text {
+#contact-bar {
+    background-color: #7894ff;
     clear: both;
+    height: 100px;
+    width: auto;
+}
+
+
+#footer-text {
     text-align: center;
 }
