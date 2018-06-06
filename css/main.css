@@ -198,7 +198,7 @@ nav ul li a {
 }
 
 #footer-text {
-    padding-top: 60px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -223,18 +223,40 @@ nav ul li a {
 
 #use-form {
     line-height: 16px;
+    padding-bottom: 20px;
     padding-top: 10px;
 }
 
 #footer-form {
+    background-color: #F4F5FF; 
+    border-radius: 5px;
     font-size: 18px;
-    line-height: 50px;
-    padding-top: 40px;
+    line-height: 30px;
+    padding: 40px 100px 0 100px;
+    text-align: center;
 }
 
 input[type=text] {
-    display: inline-block;
+    border: 1px solid #F4F5FF;
+    border-radius: 4px;
+    box-sizing: border-box;
     margin: 8px 0;
     padding: 12px 20px;
+    text-align: left;
     width: 100%; 
 }
+
+input[type=submit] {
+    background-color: #7894ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Playfair display', serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 8px 0;
+    padding: 14px 20px;
+    text-transform: lowercase;
+    width: 100px;
+    }
