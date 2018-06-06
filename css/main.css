@@ -221,27 +221,48 @@ nav ul li a {
     text-transform: lowercase;
 }
 
+#contact h4 {
+    color: #7894ff;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contact h4 span {
+    color: #FF91FF;
+}
+
 #use-form {
     line-height: 16px;
     padding-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 #footer-form {
     background-color: #F4F5FF; 
     border-radius: 5px;
     font-size: 18px;
-    line-height: 30px;
-    padding: 40px 100px 0 100px;
+    padding: 30px 200px 20px 200px;
     text-align: center;
 }
 
-input[type=text] {
+#form-labels {
+    text-align: left;
+}
+
+#form-submit {
+    text-align: center;
+}
+
+input[type=text], input[type=textarea] {
     border: 1px solid #F4F5FF;
     border-radius: 4px;
     box-sizing: border-box;
     margin: 8px 0;
-    padding: 12px 20px;
+    padding: 15px 20px;
     text-align: left;
     width: 100%; 
 }
@@ -255,8 +276,8 @@ input[type=submit] {
     font-family: 'Playfair display', serif;
     font-size: 20px;
     font-style: italic;
-    margin: 8px 0;
-    padding: 14px 20px;
+    margin: 20px 0;
+    padding: 10px 20px;
     text-transform: lowercase;
     width: 100px;
     }
