@@ -187,6 +187,10 @@ nav ul li a {
 
 /***Footer***/
 
+#footer-text {
+    padding-top: 120px;
+}
+
 #contact {
     text-align: center;
 }
@@ -200,18 +204,18 @@ nav ul li a {
 
 #contact h3 {
     color: #7894ff;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: 3px;
     margin: auto;
-    padding-top: 120px;
+    padding-top: 16px;
     text-transform: uppercase;
 }
 
 #contact h4 {
     color: #ff502c;
     font-family: 'Playfair display', serif;
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     letter-spacing: 0;
     padding: 10px 0 60px 0;
@@ -232,19 +236,14 @@ nav ul li a {
     color: #FF91FF;
 }
 
-#contact-button {
-    background-color: #7894ff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin: auto;
-    padding: 2px 20px;
-    text-transform: uppercase;
-    width: 180px;
-    }
+#contact-text a {
+    color: #ff502c;
+    font-family: 'Playfair display', serif;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 0;
+    text-transform: lowercase;
+}
     
 a:-webkit-any-link {
     text-decoration:none !important;
