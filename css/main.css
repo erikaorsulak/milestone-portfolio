@@ -13,6 +13,10 @@ body {
     height: 670px;
 }
 
+#about {
+    height: 520px;
+}
+
 /****GRID****/
 
 .full-width {
@@ -64,10 +68,6 @@ nav ul li a {
 
 /***ABOUT***/
 
-#about {
-    height: 520px;
-}
-
 #about-bar {
     background-color: #7894ff;
     height: 100px;
@@ -96,6 +96,7 @@ nav ul li a {
 #about p {
     color: #141414;
     font-size: 18px;
+    text-decoration: none;
 }
 
 #about-image {
@@ -186,7 +187,6 @@ nav ul li a {
 
 /***Footer***/
 
-
 #contact {
     text-align: center;
 }
@@ -238,14 +238,14 @@ nav ul li a {
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin: auto;
     padding: 2px 20px;
     text-transform: uppercase;
-    width: 230px;
+    width: 180px;
     }
     
-#contact a:-webkit-any-link {
-        text-decoration:none !important;
-        }
+a:-webkit-any-link {
+    text-decoration:none !important;
+    }
